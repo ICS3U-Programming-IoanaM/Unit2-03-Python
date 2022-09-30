@@ -51,23 +51,3 @@ jobs:
          DEFAULT_BRANCH: main
 
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
-
-Then place the following code in a README.md file, after the repo's title, in your root folder:
-
-Make sure to replace <OWNER> with your Github Organization name, and <REPOSITORY> with the name of your project!
-
-[![Mr Coxall's Super Linter](https://github.com/<OWNER>/<REPOSITORY>/workflows/Mr%20Coxall's%20Super%20Linter/badge.svg)](https://github.com/<OWNER>/<REPOSITORY>/actions/)
-
-
-
-If you want this opened in Repl.it:
-
-[![Run on Repl.it](https://repl.it/badge/github/<OWNER>/<REPOSITORY>)](https://repl.it/github/<OWNER>/<REPOSITORY>)
-
-
-
-If the root of the repo is your website then:
-
-This site can be found at: [https://<OWNER>.github.io/<REPOSITORY>](https://<OWNER>.github.io/<REPOSITORY>)
